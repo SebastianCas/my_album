@@ -17,14 +17,24 @@
  					</div>
  					<div class="panel-body">
  						<a href="{% url "photo-detail" p.id %}">
+<<<<<<< HEAD
 							 <img src="{% static p.photo.url %}"style="width:200px;height:200px;"/>
+=======
+							 <img src="{% static p.photo.url %}"
+style="width:200px;height:200px;"/>
+>>>>>>> 8291679ca8f49700b917b2af3a89c65fbf0c4c7e
  						</a>
  					</div>
  					<div class="panel-footer">
  						{% if p.comment %}
  							{{ p.comment }}
  						{% else %}
+<<<<<<< HEAD
  							<a href="{% url "photo-update" p.id %}">edit comments</a>
+=======
+ 							<a href="{% url "photo-update" p.id %}">edit
+comments</a>
+>>>>>>> 8291679ca8f49700b917b2af3a89c65fbf0c4c7e
  						{% endif %}
  					</div>
  				</div>
